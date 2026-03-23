@@ -517,6 +517,10 @@ The screenshots are categorized.
 
 ![Screenshot](/screenshots/cyberpunk.png)
 
+### Dalton Dark
+
+![Screenshot](/screenshots/dalton-dark.png)
+
 ### Dark Modern
 
 ![Screenshot](/screenshots/dark-modern.png)

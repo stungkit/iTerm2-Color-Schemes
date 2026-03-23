@@ -1,5 +1,5 @@
 #!/bin/sh
-# Monospace Dark
+# Dalton Dark
 
 # source for these helper functions:
 # https://github.com/chriskempson/base16-shell/blob/master/templates/default.mustache
@@ -25,35 +25,35 @@ else
 fi
 
 # 16 color space
-put_template 0  "73/82/95"
-put_template 1  "f7/67/69"
-put_template 2  "17/b8/77"
-put_template 3  "ff/a2/3e"
-put_template 4  "70/8f/ff"
-put_template 5  "a8/7f/fb"
-put_template 6  "25/a6/e9"
-put_template 7  "a4/af/bd"
-put_template 8  "8b/98/a9"
-put_template 9  "fc/8f/8e"
-put_template 10 "66/ce/98"
-put_template 11 "ff/c2/6e"
-put_template 12 "a2/b6/ff"
-put_template 13 "c8/aa/ff"
-put_template 14 "71/c2/ee"
-put_template 15 "fa/fb/fe"
+put_template 0  "28/28/28"
+put_template 1  "d8/50/50"
+put_template 2  "5b/91/4e"
+put_template 3  "c4/c4/0c"
+put_template 4  "7a/a2/f7"
+put_template 5  "a0/50/d0"
+put_template 6  "56/71/7f"
+put_template 7  "b8/b8/b8"
+put_template 8  "49/49/49"
+put_template 9  "f0/70/68"
+put_template 10 "88/b9/7d"
+put_template 11 "ed/ed/02"
+put_template 12 "97/b1/f1"
+put_template 13 "c0/70/f0"
+put_template 14 "66/91/a7"
+put_template 15 "d8/d8/d8"
 
-color_foreground="a4/af/bd"
-color_background="10/15/1d"
+color_foreground="c8/c9/cc"
+color_background="1b/1b/1b"
 
 if [ -n "$ITERM_SESSION_ID" ]; then
   # iTerm2 proprietary escape codes
-  put_template_custom Pg "a4afbd"
-  put_template_custom Ph "10151d"
-  put_template_custom Pi "d9dfe7"
-  put_template_custom Pj "264dcb"
-  put_template_custom Pk "d9dfe7"
-  put_template_custom Pl "c8aaff"
-  put_template_custom Pm "10151d"
+  put_template_custom Pg "c8c9cc"
+  put_template_custom Ph "1b1b1b"
+  put_template_custom Pi "c8c9cc"
+  put_template_custom Pj "c8c9cc"
+  put_template_custom Pk "1b1b1b"
+  put_template_custom Pl "9a9a9a"
+  put_template_custom Pm "1b1b1b"
 else
   put_template_var 10 $color_foreground
   put_template_var 11 $color_background
